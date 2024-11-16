@@ -1,0 +1,21 @@
+.navbar{
+    background-color: cornflowerblue;
+}
+.navbar-brand{
+    color: aliceblue;
+}
+#icon{
+    width: 5%;
+}
+#destacado{
+    background-color:aliceblue;
+    color: cornflowerblue;
+}
+#Descripcion{
+    color: cornflowerblue;
+    text-align: center;
+    text-justify: auto;
+    background-color: aliceblue;
+
+    
+}
