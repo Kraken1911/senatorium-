@@ -47,36 +47,38 @@ body {
 /* Sticky footer position and size
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 300px;
+    margin-bottom: 300px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   /* Set the fixed height of the footer here */
-  height: 300px;
-  text-align: center;
-  
+    height: 300px;
+    text-align: center;
 }
 
 /* Taller footer on small screens */
 @media (max-width: 34em) {
     body {
-      margin-bottom: 500px;
+        margin-bottom: 500px;
     }
     .footer {
-      height: 500px;
+        height: 500px;
     }
 }
 #Promociones{
     color: cornflowerblue;
     text-align: center;
     align-items: center;
+}
+#Grave{
+    color: red;
 }
 #Footer{
     color: aliceblue;
@@ -86,4 +88,23 @@ body {
 }
 #modelId1 .modal-content{
     background-color: cornflowerblue;
+}
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
 }
