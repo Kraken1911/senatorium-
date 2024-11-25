@@ -38,6 +38,12 @@
     background-color: cornflowerblue;
     color: aliceblue;
 }
+#contacto{
+    background-color:aliceblue;
+    color: cornflowerblue;
+    text-align: center;
+    text-justify: auto;
+}
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
 body {
